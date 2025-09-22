@@ -1,1 +1,6 @@
-#while summation code following directions from Readme
+num = int(input())
+total = 0
+while num > 0:
+    total = total + num
+    num = num - 1
+print(total)
